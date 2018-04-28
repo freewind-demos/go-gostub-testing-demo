@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
+
+var now = time.Now()
+
+func TodayOfMonth() int {
+	return now.Day()
+}
 
 func main() {
-	fmt.Println("Hello go!")
+	fmt.Println(TodayOfMonth())
 }

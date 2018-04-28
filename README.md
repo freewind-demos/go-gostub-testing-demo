@@ -1,10 +1,10 @@
-Go Hello World Demo
-===================
+GoStub Demo
+===========
+
+Stub variable in go unit tests.
 
 ```
 brew install go
 go get
-go run hello.go
+go test .
 ```
-
-You will see `Hello, go!`
